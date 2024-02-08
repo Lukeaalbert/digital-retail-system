@@ -4,26 +4,26 @@
 
 A database of products from certain categories as well as users and their associated information is read in with a parser, and that data is used to model the information associated with the current retail system. Data will be stored and accessed in the following format:
 
-
-<products>
-product_category
-name
-price
-quantity
-category-specific-info
-product_category
-name
-price
-quantity
-category-specific-info
-...
-</products>
-<users>
-username credit_amount type
-username credit_amount type
-...
-</users>
-
+//======================================================== <br />
+<products> <br />
+product_category <br />
+name <br />
+price <br />
+quantity <br />
+category-specific-info <br />
+product_category <br />
+name <br />
+price <br />
+quantity <br />
+category-specific-info <br />
+... <br />
+</products> <br />
+<users> <br />
+username credit_amount type <br />
+username credit_amount type <br />
+... <br />
+</users> <br />
+//========================================================
 
 My program allows user to interactively search for products based on certain keywords, returning the products that match the search. From those matches, my program allows a user to add select items to their "cart", view items in their cart, purchase the items in their cart, and saves the updated database of product and user information.
 
