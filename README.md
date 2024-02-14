@@ -15,4 +15,4 @@ Other product categories are supported and may be implemented by deriving a new 
 
 amazon.cpp includes main() and the basic logic of the program. mydatastore.cpp is the second highest, and stores most important data and functionality. 
 
-Thanks for reading! I hope you like my mock retail system! - Luke Albert (^▽^)
+Thanks for reading! I hope you enjoy! - Luke Albert (^▽^)
