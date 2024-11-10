@@ -1,4 +1,4 @@
-# digital_retail_system
+# digital retail system
 
 ### This repo includes files for a project that implements the backend for a simplified version of an online retail system, such as Amazon.
 
