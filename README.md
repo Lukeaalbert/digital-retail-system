@@ -2,17 +2,17 @@
 
 ### This repo includes files for a project that implements the backend for a simplified version of an online retail system, such as Amazon.
 
-A database of products from certain categories as well as users and their associated information is read in with a parser, and that data is used to model the information associated with the current retail system. Reference the input.txt file to see the format which data is stored and accessed in. Any amount of input data is supported as long as it is inputted in the specified format.
+A database of products from certain categories as well as users and their associated information is read in with a parser. The parsed data is used to model the information associated with the current retail system. See input.txt for an example of the format that data is stored and accessed in.
 
-My program allows users to interactively search for products based on certain keywords, returning the products that match their search. From those matches, my program allows users to add select items to their "cart", view items in their cart, purchase the items in their cart, and save the updated database of product and user information.
+The system allows users to interactively search for products based on certain keywords, returning the products that match their search. From those matches, the program allows users to add selected items to their "cart", view items in their cart, purchase the items in their cart, and save the updated database of product and user information.
 
-My system derives products from an abstract product base class. It currently supports 3 categories of derived products, each one with it's own unique, additional data. For example, in addition to the derived product data members, the "book" product supports an ISBN number and an author. The 3 categories of products supported are:
+My system supports 3 categories of products, each one containing shared product attributes and unique product attributes. This was implemented using inheritance from an abstract base class. For example, in addition to it's shared attributes, the "book" product supports an ISBN number and an author. The 3 categories of products supported are:
 - Books
 - Clothing
 - Movies
 
-Other product categories are supported and may be implemented by deriving a new category class from the abstract product class and implementing it in a similar fashion as book.cpp/book.h, clothing.cpp/clothing.h, and movie.cpp/movie.h.
+Other product categories are supported and may be implemented by deriving a new class from the abstract product class and implementing it in a similar fashion as book.cpp/book.h, clothing.cpp/clothing.h, and movie.cpp/movie.h.
 
-amazon.cpp includes main() and the basic logic of the program. mydatastore.cpp is the second highest, and stores most important data and functionality. 
+amazon.cpp includes main() and the basic logic of the program.
 
 Thanks for reading! I hope you enjoy! - Luke Albert (^▽^)
