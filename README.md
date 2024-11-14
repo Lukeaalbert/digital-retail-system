@@ -1,6 +1,6 @@
 # digital retail system
 
-### This repo includes files for a project that implements the backend for a simplified version of an online retail system, such as Amazon.
+### This repo contains code for the backend of a simple online retail system.
 
 Once this program is run, a database of products from certain categories, as well as users and their associated information, is read in with a parser. The parsed data is used to model the information associated with the current retail system. See input.txt for an example of the format that data is stored and accessed in.
 
